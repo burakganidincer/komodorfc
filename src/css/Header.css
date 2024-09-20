@@ -1,0 +1,21 @@
+.logo {
+  width: 100px;
+  object-fit: cover;
+  padding: 10px;
+  cursor: pointer;
+}
+@media (max-width: 899px) {
+  .logo {
+    display: none;
+  }
+}
+.logo-jr {
+  width: 70px;
+  object-fit: cover;
+  padding: 10px;
+}
+@media (min-width: 899px) {
+  .logo-jr {
+    display: none;
+  }
+}
