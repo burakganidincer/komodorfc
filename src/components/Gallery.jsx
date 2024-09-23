@@ -1,19 +1,19 @@
 import React from "react";
-import { Grid, Paper, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import { Box } from "@mui/system";
-import game1 from "../images/haftaninmaci/game1.jpg";
-import game2 from "../images/haftaninmaci/game2.jpg";
-import game3 from "../images/haftaninmaci/game3.jpg";
-import game4 from "../images/haftaninmaci/game4.jpg";
-import game5 from "../images/haftaninmaci/game5.jpg";
-import game6 from "../images/haftaninmaci/game6.jpg";
-import game7 from "../images/haftaninmaci/game7.jpg";
-import game8 from "../images/haftaninmaci/game8.jpg";
-import game9 from "../images/haftaninmaci/game9.jpg";
-import game10 from "../images/haftaninmaci/game10.jpg";
-import game11 from "../images/haftaninmaci/game11.jpg";
-import game12 from "../images/haftaninmaci/game12.jpg";
+import game1 from "../images/haftaninmaci/haber1.jpeg";
+import game2 from "../images/haftaninmaci/nicemac.jpeg";
+import game3 from "../images/haftaninmaci/nicemac1.jpeg";
+import game4 from "../images/haftaninmaci/nicemac11.jpeg";
+import game5 from "../images/haftaninmaci/nicemac3.jpeg";
+import game6 from "../images/haftaninmaci/nicemac4.jpeg";
+import game7 from "../images/haftaninmaci/nicemac5.jpeg";
+import game8 from "../images/haftaninmaci/nicemac6.jpeg";
+import game9 from "../images/haftaninmaci/nicemac7.jpeg";
+import game10 from "../images/haftaninmaci/nicemac8.jpeg";
+import game11 from "../images/haftaninmaci/nicemac9.jpeg";
+import game12 from "../images/haftaninmaci/nicemac10.jpeg";
 
 // 12 adet resim için örnek veri
 const images = [
@@ -49,7 +49,7 @@ const Gallery = () => {
           textAlign: "center",
         }}
       >
-        Son Karşılaşmamızdan Görüntüler
+        FC Nice Karşılaşmasından Görüntüler
       </Typography>
       <Grid container spacing={2}>
         {images.map((image, index) => (

@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import dortyuzon from "../images/dortyuzon.png";
-import haber1 from "../images/newshafta1.jpg";
+import haber1 from "../images/haber1.jpeg";
 import minifutbol from "../images/minifutbol.jpg";
 import caner410 from "../images/canerdortyuzon.jpg";
 import isobaba from "../images/isobaba1.png";
@@ -48,15 +48,15 @@ const matches = [
 export const sliderNews = [
   {
     id: 1,
-    title: "MS: Komodor FC 6 - 3 Gençlergücü",
-    description: "Takımımız yoluna kayıpsız devam ediyor.",
+    title: "MS: Komodor FC 6 - 3 Nice FC",
+    description: "Takımımız liderlik koltuğuna oturdu.",
     image: haber1,
     fullText: `
-      Komodor FC, Gençlergücü karşısında muazzam bir performans sergileyerek 6-3 galip geldi. Maçın başlangıcı oldukça etkileyiciydi; takımımızın atakları, rakip defansı zor durumda bıraktı ve erken dakikalarda öne geçmeyi başardık. İlk yarının ortalarına doğru, Gençlergücü'nün sert direnişiyle karşılaştık. Rakip takım, aradaki farkı kapatmak için sıkı bir mücadele verdi ve maçın dengesi bir süre için değişti. Ancak, takımımızın stratejik hamleleri ve oyuncularımızın üstün yetenekleri, oyunun kontrolünü tekrar ele geçirmemizi sağladı.
+     Komodor FC olarak bu hafta FC Nice ile zorlu bir karşılaşmaya çıktık ve 6-3'lük galibiyetle liderlik koltuğuna oturduk. Maça hızlı başlayan takımımız, ilk dakikalardan itibaren üstünlüğü eline aldı ve oyun boyunca kontrolü elden bırakmadı. Gollerimizi İsmail, Hakan (2), Özbay, Edip Ahmet ve Yiğit kaydetti, asistlerde ise Yiğit'in 3, Özbay'ın ve Hakan’ın katkısı oldu.
 
-      Maçın ikinci yarısında ise önemli bir gelişme yaşandı: Doğaner Köse, tartışmalı bir pozisyonda kırmızı kart gördü ve takımımız 10 kişi kaldı. Bu zorlu durum karşısında, takımımızın mücadele ruhu ve organizasyonu daha da ön plana çıktı. Eksik oyuncuya rağmen, rakibin ataklarını başarılı bir şekilde savunduk ve kendi fırsatlarımızı değerlendirdik.
+Maçın ilk yarısında baskılı ve tempolu bir oyun sergileyerek rakibimize büyük üstünlük sağladık. Oyun disiplinimizi bozmadan, güzel pas organizasyonlarıyla goller bulduk ve devreye 5-1'lik skorla rahat bir şekilde girdik. Takım halinde uyumlu bir performans sergileyen oyuncularımız, özellikle Yiğit’in asistleriyle fark yaratırken, Hakan ve Özbay’ın sarı kartları biraz tempomuzu düşürse de maça hâkim olduk.
 
-      Sonuç olarak, maçın sonlarına doğru farkı daha da açarak etkileyici bir galibiyet elde ettik. Rakibin çabalarına rağmen, gollerimiz gelmeye devam etti ve sahadan rahat bir galibiyetle ayrıldık. Bu zafer, takımımızın moralini yüksek tuttuğu ve ligdeki iddiamızı sürdürdüğümüz bir maç oldu. Gençlergücü karşısındaki bu etkileyici galibiyet, sezon boyunca ne kadar güçlü bir ekip olduğumuzu bir kez daha gözler önüne serdi. Takımımıza gösterdikleri üstün performanstan dolayı teşekkür eder, taraftarlarımızı bir sonraki maçımızda da yanımızda görmekten mutluluk duyarız.
+İkinci yarıda FC Nice toparlanmaya çalışsa da takımımız disiplinli oyunuyla rakibe fırsat tanımadı. Savunmada sağlam durarak skoru korumayı başardık ve mücadeleyi 6-3 gibi net bir galibiyetle tamamladık. Bu zafer, takımımızın birlikteliğini ve saha içindeki uyumunu bir kez daha gözler önüne serdi. Liderlik koltuğuna oturmanın verdiği moral ve özgüvenle, şampiyonluk yolunda emin adımlarla ilerlemeye devam ediyoruz.
     `,
   },
   {
@@ -248,7 +248,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              14 EKİM - 19:00
+              22 Eylül - 20:00
             </Typography>
             <Typography
               variant="body2"
@@ -265,8 +265,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor 6-3 Gençlergücü
-              <img src={genclergucu} alt="" width={45} />
+              Komodor 6-3 FC Nice
+              <img src={nice} alt="" width={45} />
             </Typography>
             <Typography
               variant="caption"
@@ -293,7 +293,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              22 EKİM - 20:00
+              29 Eylül - 21:00
             </Typography>
             <Typography
               variant="body2"
@@ -310,8 +310,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Nice
-              <img src={nice} alt="" width={40} />
+              Komodor vs Lord Of City
+              <img src={lordofcity} alt="" width={40} />
             </Typography>
             <Typography
               variant="caption"
@@ -336,7 +336,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              29 EKİM - 21:00
+              4 Ekim - 21:00
             </Typography>
             <Typography
               variant="body2"
@@ -353,8 +353,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Lord Of City
-              <img src={lordofcity} alt="" width={50} />
+              Komodor vs Dörtyüzon
+              <img src={dortyuzon} alt="" width={50} />
             </Typography>
             <Typography
               variant="caption"

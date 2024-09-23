@@ -135,6 +135,7 @@ function PlayerDetail() {
             <Typography variant="body1">
               Forma Numarası: {player.shirtNum}
             </Typography>
+            <Typography variant="body1">Oynanan Maç: {player.game}</Typography>
             <Typography variant="body1">Goller: {player.goal}</Typography>
             <Typography variant="body1">Asistler: {player.assist}</Typography>
             <Typography variant="body1">
