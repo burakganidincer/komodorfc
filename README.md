@@ -17,8 +17,6 @@
 - Detailed information about the team.
 - Contact options for the club.
 
-<a href='https://wwww.komodorfc.com'>Siteye gitmek için tıklayınız. </a>
-
 ## IMG
 
 <img src="/public/screenshot.png">
