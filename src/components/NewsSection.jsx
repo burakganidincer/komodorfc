@@ -13,78 +13,66 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
-import dortyuzon from "../images/dortyuzon.png";
-import haber1 from "../images/haber1.jpeg";
+import haber1 from "../images/haftaninmaci/haber1.jpeg";
 import minifutbol from "../images/minifutbol.jpg";
 import caner410 from "../images/canerdortyuzon.jpg";
 import isobaba from "../images/isobaba1.png";
 import alimertdogan from "../images/alimertdogan.png";
 import edipahmet from "../images/edipahmet.jpg";
-import nice from "../images/takimlar/nice.png";
-import genclergucu from "../images/takimlar/genclergucu.png";
+import kartalcity from "../images/takimlar/kartalcity.png";
 import lordofcity from "../images/takimlar/lordofcity.png";
-
-// Gelecek maçlar
-const matches = [
-  {
-    id: 1,
-    date: "22 EKİM",
-    time: "20:00",
-    home: "Komodor FC",
-    away: "Dörtyüzon",
-    stadium: "Club Aydınoğlu",
-  },
-  {
-    id: 2,
-    date: "22 EKİM",
-    time: "21:00",
-    home: "Komodor FC",
-    away: "Şut At Jazz",
-    stadium: "Club Aydınoğlu",
-  },
-];
+import beykoz from "../images/takimlar/beykoz.png";
+import hako from "../images/newshakan.jpg";
 
 // Slider Haberler
 export const sliderNews = [
   {
     id: 1,
-    title: "MS: Komodor FC 6 - 3 Nice FC",
-    description: "Takımımız liderlik koltuğuna oturdu.",
+    title: "MS: Komodor FC 6 - 4 Lord Of City",
+    description: "Takımımız yoluna kayıpsız devam ediyor",
     image: haber1,
     fullText: `
-     Komodor FC olarak bu hafta FC Nice ile zorlu bir karşılaşmaya çıktık ve 6-3'lük galibiyetle liderlik koltuğuna oturduk. Maça hızlı başlayan takımımız, ilk dakikalardan itibaren üstünlüğü eline aldı ve oyun boyunca kontrolü elden bırakmadı. Gollerimizi İsmail, Hakan (2), Özbay, Edip Ahmet ve Yiğit kaydetti, asistlerde ise Yiğit'in 3, Özbay'ın ve Hakan’ın katkısı oldu.
+     Bu hafta sahamızda Lord Of City ile oynadığımız kritik maçtan 6-4’lük galibiyetle ayrılarak zirvedeki yerimizi sağlamlaştırdık. Takımımız, yine muhteşem bir performans sergileyerek taraftarlarımızı coşturdu ve şampiyonluk yolunda emin adımlarla ilerlemeye devam etti. Özellikle hücum hattındaki oyuncularımızın üstün performansı, bu zorlu mücadelede fark yarattı.
 
-Maçın ilk yarısında baskılı ve tempolu bir oyun sergileyerek rakibimize büyük üstünlük sağladık. Oyun disiplinimizi bozmadan, güzel pas organizasyonlarıyla goller bulduk ve devreye 5-1'lik skorla rahat bir şekilde girdik. Takım halinde uyumlu bir performans sergileyen oyuncularımız, özellikle Yiğit’in asistleriyle fark yaratırken, Hakan ve Özbay’ın sarı kartları biraz tempomuzu düşürse de maça hâkim olduk.
+Maça hızlı başlayan takımımız, ilk dakikalardan itibaren kontrolü eline aldı. Daha 10. dakikada Yiğit Duman, müthiş bir şutla takımımızı 1-0 öne geçirdi. Hem gol atan hem de oyun kurucu rolünü üstlenen Yiğit, oyunun kaderini belirleyen isimlerden biri oldu. Dakikalar ilerledikçe baskıyı artıran Komodor FC, Deniz Eren’in etkili asistleriyle pozisyonlar bulmaya başladı. Deniz'in akıl dolu paslarıyla Hakan, 2 kez üst üste sahneye çıkarak skoru 3-0 yaptı.
 
-İkinci yarıda FC Nice toparlanmaya çalışsa da takımımız disiplinli oyunuyla rakibe fırsat tanımadı. Savunmada sağlam durarak skoru korumayı başardık ve mücadeleyi 6-3 gibi net bir galibiyetle tamamladık. Bu zafer, takımımızın birlikteliğini ve saha içindeki uyumunu bir kez daha gözler önüne serdi. Liderlik koltuğuna oturmanın verdiği moral ve özgüvenle, şampiyonluk yolunda emin adımlarla ilerlemeye devam ediyoruz.
+Lord Of City, oyuna yeniden tutunmaya çalışsa da savunmamız ve kalecimiz Mehmet'in kritik müdahaleleri rakibin direncini kırdı. İlk yarı sonunda İsmail Arda Yamaç’ın şık golüyle farkı iyice açarak devreye 4-1 önde girdik.
+
+İkinci yarıda Lord Of City’den beklenen ataklar gelse de takımımız sakin ve disiplinli oyunuyla maçı kontrol etmeyi başardı. Aytunç, hem attığı golle hem de yaptığı asistle farkı açan isimlerden biri oldu. Oyun disiplininden hiç kopmayan Komodor FC, Hakan’ın üçüncü golüyle skoru 6-2’ye taşıdı. Rakip takım son dakikalarda 2 gol bulsa da bu, maçın sonucunu değiştirmedi.
+
+Son düdükle birlikte sahadan 6-4’lük net bir galibiyetle ayrılan takımımız, hem liderliğini pekiştirdi hem de taraftarlarına bir kez daha keyifli bir maç izlettirdi. Yiğit’in 1 gol ve 1 asisti, Deniz Eren’in 2 asistlik katkısı, Hakan’ın 3 gol ve 2 asistiyle müthiş performanslar sergilendi. Takımımızın bu uyumlu ve kararlı futbolu, şampiyonluğa ne kadar yakın olduğumuzu bir kez daha gösterdi.
+
+Bu zafer, Komodor FC’nin sahadaki üstünlüğünü bir kez daha kanıtladı ve moral motivasyonumuzu zirveye taşıdı. Şampiyonluk yolunda hız kesmeden ilerlemeye devam ediyoruz!
     `,
   },
   {
     id: 2,
-    title: "İsmail Arda Yamaç baba oldu.",
-    description: "İsmail'in oğlu Yaman Ali dünyaya geldi..",
-    image: isobaba,
+    title: "Hakan Yıldırım'dan şov!",
+    description: "Hakan Yıldırım, Yükselen Performansıyla Göz Dolduruyor!",
+    image: hako,
     fullText: `
-          Milli oyuncumuz İsmail Arda Yamaç ve sevgili eşi Sıla Yamaç'ı en içten dileklerimizle tebrik ederiz. Çiftimizin ilk çocukları, minik Yaman Ali'nin dünyaya gelişi, yalnızca aileleri için değil, aynı zamanda tüm takımımız ve camiamız için büyük bir mutluluk kaynağı oldu. Bu değerli anı paylaşmanın sevincini yaşarken, İsmail ve Sıla çiftine sağlık, huzur ve mutluluk dolu bir hayat diliyoruz.
+     Komodor FC'nin yetenekli ortasahası Hakan Yıldırım, son haftalardaki müthiş performansıyla taraftarların ve futbol otoritelerinin dikkatini çekiyor. Üst üste sergilediği etkileyici futbol ve attığı gollerle takımını sırtlayan Hakan, adeta formunun zirvesine ulaştı.
 
-İsmail Arda Yamaç, futbol kariyeri boyunca takımımıza yaptığı katkılar ve sahadaki efendiliğiyle daima bir örnek oldu. Sahadaki disiplini ve kararlılığı, şimdi yeni bir baba olarak hayatının farklı bir alanında da kendini gösterecek. Eminiz ki, İsmail, nasıl ki sahada bir takım lideriyse, aile hayatında da aynı özveri ve sevgiyle hareket edecektir. Yaman Ali’nin hayatına sağlık, neşe ve mutluluk katacağını, Yamaç ailesinin bu yeni yolculuğunda her günlerinin keyif ve heyecanla dolacağını temenni ediyoruz.
+Son 3 maçta 7 gol ve 4 asistlik inanılmaz bir istatistiğe imza atan Hakan, hücum hattında sergilediği oyunla fark yaratmaya devam ediyor. Hem gol yollarındaki bitiriciliği hem de arkadaşlarına yaptığı asistlerle takımına büyük katkı sağlayan yıldız oyuncu, Komodor FC'nin liderlik mücadelesinde kilit rol oynuyor.
 
-Sıla Yamaç'a da bu süreçte gösterdiği güç ve sabır için büyük takdirlerimizi sunuyoruz. Annelik, en kutsal ve özel rollerden biri olup, Sıla'nın bu rolü büyük bir sevgi ve zarafetle üstleneceğine eminiz. Yaman Ali'nin ilk adımları, ilk kelimeleri ve her anı, aile için unutulmaz anılar oluşturacak.
+Hakan'ın bu yükselen performansı, takımın genel başarısına da büyük katkıda bulundu. Hücum hattındaki etkinliğiyle rakip savunmaları zor durumda bırakan Hakan, sahadaki liderliğiyle de takım arkadaşlarını motive ediyor. Özellikle son haftalarda maçın kaderini değiştiren kritik anlarda sahneye çıkması, onu takımın en önemli oyuncularından biri haline getirdi.
 
-Bu özel dönemde İsmail ve Sıla çiftine desteklerini esirgemeyen tüm takım arkadaşlarına, taraftarlarımıza ve camiamıza da teşekkür ediyoruz. Yaman Ali'nin büyümesini izlerken, onu futbol sahalarında da görmeyi sabırsızlıkla bekliyoruz. Yeni Yamaç ailesine sağlık, mutluluk ve huzur dolu uzun bir ömür diliyoruz. Yaman Ali'nin hayatlarına getireceği mutluluğun, her geçen gün katlanarak artacağına inanıyoruz.
+Komodor FC'nin zirve yolculuğunda Hakan Yıldırım'ın bu performansını devam ettirmesi, hem takımın hem de taraftarların en büyük beklentisi. Sahadaki hırsı, mücadeleci yapısı ve skora katkısıyla Hakan, şimdiden sezonun en çok konuşulan oyuncuları arasında yerini aldı.
+
+Hakan Yıldırım’ın bu müthiş form grafiğiyle takımımıza daha nice zaferler kazandıracağından eminiz!
     `,
   },
   {
     id: 3,
-    title: "Edip Ahmet sahada..",
-    description: "Edip Ahmet siftahı yaptı..",
-    image: edipahmet,
+    title: "Caner ÇAĞLAYAN Komodor FC'de..",
+    description: "Caner Çağlayan Komodor FC'ye Geri Döndü!",
+    image: caner410,
     fullText: `
-     Edip Ahmet, takımımızın ilk maçında etkileyici bir performans sergileyerek büyük bir etki yarattı. Yeni transferimiz, maçın başından itibaren sahada adeta şov yaptı. Özellikle attığı uzun toplarla dikkat çekti ve orta saha oyuncusu olarak ne kadar yetenekli olduğunu gözler önüne serdi.
+    Geçtiğimiz sezon takımımızda kiralık olarak oynayan ve ardından eski kulübü Dörtyüzon'a geri dönen tecrübeli oyuncumuz Caner Çağlayan, yeniden Komodor FC'ye katıldı. Dörtyüzon'un lige katılmayacağını açıklaması üzerine, Caner eski yuvasına dönme kararı aldı.
 
-      Edip Ahmet’in oyun tarzı, takımımıza önemli bir dinamizm kattı. Uzun pasları ve oyun görüşü, hücum hattımızı destekleyerek rakip savunmayı zor durumda bıraktı. Maç boyunca gösterdiği yüksek tempo ve etkili oyunuyla, takım arkadaşlarıyla uyum içinde çalıştı ve kısa sürede takıma adaptasyon sağladı. Bu performansıyla, hem taraftarlarımızın hem de teknik ekibin beğenisini kazandı. Edip Ahmet’in sahadaki varlığı, takımın genel oyun anlayışını da olumlu yönde etkiledi. İlk maçında gösterdiği bu üstün performans, gelecekteki maçlar için umut verici bir başlangıç oldu.
+Caner, önceki dönemlerde takımımıza kattığı deneyim ve etkili performansıyla büyük katkı sağlamıştı. Sahadaki liderliği ve oyun zekâsı, hem takım arkadaşları hem de taraftarlar tarafından büyük takdir topladı. Taraftarlarımız, Caner'in Komodor FC forması altında sahadaki yeteneklerini yeniden izleme fırsatı bulacak.
 
-      Takımımız, Edip Ahmet’in katkılarıyla daha da güçlendi. Bu tür etkileyici performanslar, sezon boyunca başarıya ulaşma hedefimizi destekleyecek ve futbolseverleri heyecanlandıracak. Edip Ahmet’e hoş geldin diyor, başarılarının devamını diliyoruz.
+Takımımıza tekrar katılacak olan Caner'e, bu yeni dönemde de başarılar diliyoruz. Komodor FC ailesi olarak, Caner’in sahada bize kattığı değeri yeniden görmekten mutluluk duyacağız.
     `,
   },
 ];
@@ -121,16 +109,17 @@ Taraftarlarımızın oyuncumuza olan sevgi ve destek mesajları, hem Ali Mert he
   },
   {
     id: 6,
-    title: "Caner ÇAĞLAYAN Dörtyüzon'da",
-    description:
-      "Tecrübeli oyuncumuz Caner için Dörtyüzon Kulübü ile görüşmelere başlandı.",
-    image: caner410,
+    title: "İsmail Arda Yamaç baba oldu.",
+    description: "İsmail'in oğlu Yaman Ali dünyaya geldi..",
+    image: isobaba,
     fullText: `
-          Geçtiğimiz sezon takımımızda kiralık olarak oynayan tecrübeli oyuncumuz Caner Çağlayan, eski kulübü Dörtyüzon’a geri döndü. Caner, takımımıza kattığı değerli deneyim ve etkili performansıyla büyük katkı sağladı.
+           Milli oyuncumuz İsmail Arda Yamaç ve sevgili eşi Sıla Yamaç'ı en içten dileklerimizle tebrik ederiz. Çiftimizin ilk çocukları, minik Yaman Ali'nin dünyaya gelişi, yalnızca aileleri için değil, aynı zamanda tüm takımımız ve camiamız için büyük bir mutluluk kaynağı oldu. Bu değerli anı paylaşmanın sevincini yaşarken, İsmail ve Sıla çiftine sağlık, huzur ve mutluluk dolu bir hayat diliyoruz.
 
-      Onun sahadaki liderliği ve oyun zekâsı, hem takım arkadaşları hem de taraftarlar tarafından takdir edildi. Artık, Dörtyüzon'un forması altında mücadele edecek olan Caner’e yeni kulübünde başarılar diliyoruz.
+İsmail Arda Yamaç, futbol kariyeri boyunca takımımıza yaptığı katkılar ve sahadaki efendiliğiyle daima bir örnek oldu. Sahadaki disiplini ve kararlılığı, şimdi yeni bir baba olarak hayatının farklı bir alanında da kendini gösterecek. Eminiz ki, İsmail, nasıl ki sahada bir takım lideriyse, aile hayatında da aynı özveri ve sevgiyle hareket edecektir. Yaman Ali’nin hayatına sağlık, neşe ve mutluluk katacağını, Yamaç ailesinin bu yeni yolculuğunda her günlerinin keyif ve heyecanla dolacağını temenni ediyoruz.
 
-      Caner’in eski takımına dönerken, kariyerinde yeni bir sayfa açması ve Dörtyüzon’a önemli katkılarda bulunması bekleniyor. Taraftarlarımız, Caner’in sahadaki yeteneklerini izlemeye devam edecek ve eski futbolcumuzun yeni takımında da başarılı olmasını umuyor.
+Sıla Yamaç'a da bu süreçte gösterdiği güç ve sabır için büyük takdirlerimizi sunuyoruz. Annelik, en kutsal ve özel rollerden biri olup, Sıla'nın bu rolü büyük bir sevgi ve zarafetle üstleneceğine eminiz. Yaman Ali'nin ilk adımları, ilk kelimeleri ve her anı, aile için unutulmaz anılar oluşturacak.
+
+Bu özel dönemde İsmail ve Sıla çiftine desteklerini esirgemeyen tüm takım arkadaşlarına, taraftarlarımıza ve camiamıza da teşekkür ediyoruz. Yaman Ali'nin büyümesini izlerken, onu futbol sahalarında da görmeyi sabırsızlıkla bekliyoruz. Yeni Yamaç ailesine sağlık, mutluluk ve huzur dolu uzun bir ömür diliyoruz. Yaman Ali'nin hayatlarına getireceği mutluluğun, her geçen gün katlanarak artacağına inanıyoruz.
     `,
   },
 ];
@@ -248,7 +237,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              22 Eylül - 20:00
+              29 Eylül - 19:00
             </Typography>
             <Typography
               variant="body2"
@@ -265,8 +254,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor 6-3 FC Nice
-              <img src={nice} alt="" width={45} />
+              Komodor 6-4 Lord Of City
+              <img src={lordofcity} alt="" width={45} />
             </Typography>
             <Typography
               variant="caption"
@@ -279,49 +268,6 @@ const NewsSection = () => {
 
           {/* 2.MAÇ */}
 
-          <Box
-            sx={{
-              marginBottom: 2,
-              padding: 1,
-              backgroundColor: "#fff",
-              borderRadius: 1,
-              boxShadow: 2,
-            }}
-          >
-            <Typography
-              variant="body1"
-              fontWeight="bold"
-              sx={{ textAlign: "center" }}
-            >
-              29 Eylül - 21:00
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontFamily: "Poppins",
-              }}
-            >
-              <img
-                src={logo}
-                alt=""
-                width={40}
-                style={{ marginRight: "5px" }}
-              />
-              Komodor vs Lord Of City
-              <img src={lordofcity} alt="" width={40} />
-            </Typography>
-            <Typography
-              variant="caption"
-              display="block"
-              sx={{ textAlign: "center" }}
-            >
-              Club Aydinoglu
-            </Typography>
-          </Box>
-          {/* 3.MAÇ */}
           <Box
             sx={{
               marginBottom: 2,
@@ -353,8 +299,51 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Dörtyüzon
-              <img src={dortyuzon} alt="" width={50} />
+              Komodor vs Beykoz 1908
+              <img src={beykoz} alt="" width={40} />
+            </Typography>
+            <Typography
+              variant="caption"
+              display="block"
+              sx={{ textAlign: "center" }}
+            >
+              Club Aydinoglu
+            </Typography>
+          </Box>
+          {/* 3.MAÇ */}
+          <Box
+            sx={{
+              marginBottom: 2,
+              padding: 1,
+              backgroundColor: "#fff",
+              borderRadius: 1,
+              boxShadow: 2,
+            }}
+          >
+            <Typography
+              variant="body1"
+              fontWeight="bold"
+              sx={{ textAlign: "center" }}
+            >
+              10 Ekim - 21:00
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontFamily: "Poppins",
+              }}
+            >
+              <img
+                src={logo}
+                alt=""
+                width={40}
+                style={{ marginRight: "5px" }}
+              />
+              Komodor vs Kartalcity
+              <img src={kartalcity} alt="" width={50} />
             </Typography>
             <Typography
               variant="caption"

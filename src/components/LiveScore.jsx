@@ -24,15 +24,14 @@ const LiveScore = () => {
           letterSpacing: ".1rem",
         }}
       >
-        HABERLER : Takımımız FC Nice karşısından 6-3'lük galibiyet ile ayrıldı.
-        &nbsp; | Doğaner Köse'nin Gençlergücü maçında gördüğü kırmızı kart
-        sebebiyle Lord Of City maçında forma giyemeyecek&nbsp; | &nbsp;
-        Geçtiğimiz sezonun gol kralı olan oyuncumuz Ali Mert DOĞAN'ın ayağından
-        geçirdiği ameliyat başarıyla sonuçlandı. Tecrübeli golcü 1 ay sahalardan
-        uzak kalacak.&nbsp; | &nbsp;Samet Aktan antrenmanda sakatlandı. Başarılı
+        HABERLER : Caner ÇAĞLAYAN Komodor FC'de, Tecrübeli oyuncunun transferi
+        için Dörtyüzon Kulübü ile tekrar görüşmelere başlandı. &nbsp; | MS:
+        Komodor FC 6 - 4 Lord Of City&nbsp; | &nbsp; Geçtiğimiz sezonun gol
+        kralı olan oyuncumuz Ali Mert DOĞAN'ın ayağından geçirdiği ameliyat
+        başarıyla sonuçlandı. Tecrübeli golcü 1 ay sahalardan uzak
+        kalacak.&nbsp; | &nbsp;Samet Aktan antrenmanda sakatlandı. Başarılı
         solbek oyuncumuzun köprücük kemiğinde kırık tespit edildi.&nbsp; |
-        &nbsp; Caner ÇAĞLAYAN'ın geçici transferi için Dörtyüzon Kulübü ile
-        görüşmelere başlandı.
+        &nbsp;
       </Typography>
     </Box>
   );

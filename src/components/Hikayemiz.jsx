@@ -118,7 +118,7 @@ const Hikayemiz = () => {
                     sx={{ fontWeight: "medium", mb: 1 }}
                   >
                     <AnimatedNumber
-                      value={187}
+                      value={190}
                       startValue={0}
                       duration={3000}
                     />{" "}
@@ -154,7 +154,7 @@ const Hikayemiz = () => {
                     sx={{ fontWeight: "medium", mb: 1 }}
                   >
                     <AnimatedNumber
-                      value={469}
+                      value={483}
                       startValue={0}
                       duration={3000}
                     />{" "}
