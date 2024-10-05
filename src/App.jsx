@@ -1,7 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LiveScore from "./components/LiveScore";
-
 import RouterConfig from "./config/RouterConfig";
 import PageContainer from "./container/PageContainer";
 
