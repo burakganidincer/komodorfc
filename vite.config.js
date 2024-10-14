@@ -11,4 +11,5 @@ export default defineConfig({
       outDir: "dist",
     }),
   ],
+  assetsInclude: ["**/*.JPEG", "**/*.jpeg"], // Gerekirse diğer formatları da ekleyebilirsin
 });

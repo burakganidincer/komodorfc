@@ -15,64 +15,72 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import haber1 from "../images/haftaninmaci/haber1.jpeg";
 import minifutbol from "../images/minifutbol.jpg";
-import caner410 from "../images/canerdortyuzon.jpg";
+import caner410 from "../images/canerdortyuzon.png";
 import isobaba from "../images/isobaba1.png";
 import alimertdogan from "../images/alimertdogan.png";
-import edipahmet from "../images/edipahmet.jpg";
+import modernfootball from "../images/takimlar/modernfootball.png";
 import kartalcity from "../images/takimlar/kartalcity.png";
-import lordofcity from "../images/takimlar/lordofcity.png";
-import beykoz from "../images/takimlar/beykoz.png";
-import hako from "../images/newshakan.jpg";
+import sutatjazz from "../images/takimlar/sutatjazz.png";
+
+import hako from "../images/haftaninmaci/haftaninmaci1.jpeg";
 
 // Slider Haberler
 export const sliderNews = [
   {
     id: 1,
-    title: "MS: Komodor FC 6 - 4 Lord Of City",
-    description: "Takımımız yoluna kayıpsız devam ediyor",
+    title: "MS: Komodor FC 5 - 1 KartalCity",
+    description: "Şanlı Komodor Oyuncularımızı Tek Tek Tebrik Ediyoruz.",
     image: haber1,
     fullText: `
-     Bu hafta sahamızda Lord Of City ile oynadığımız kritik maçtan 6-4’lük galibiyetle ayrılarak zirvedeki yerimizi sağlamlaştırdık. Takımımız, yine muhteşem bir performans sergileyerek taraftarlarımızı coşturdu ve şampiyonluk yolunda emin adımlarla ilerlemeye devam etti. Özellikle hücum hattındaki oyuncularımızın üstün performansı, bu zorlu mücadelede fark yarattı.
+     Geçtiğimiz hafta Beykoz maçının ardından Disiplin Kurulu’nun 6 oyuncumuza verdiği ağır cezalara rağmen, Komodor FC sahada gücünü ve kararlılığını bir kez daha gösterdi. Takımımız, KartalCity gibi ligin önemli ekiplerinden birine karşı oynadığı maçta 5-1’lik net bir galibiyet elde etti. Bu zafer, zirveye olan yürüyüşümüzde ne kadar kararlı olduğumuzu gösterirken, futbolcularımızın da morallerini yüksek tutmayı başardık.
 
-Maça hızlı başlayan takımımız, ilk dakikalardan itibaren kontrolü eline aldı. Daha 10. dakikada Yiğit Duman, müthiş bir şutla takımımızı 1-0 öne geçirdi. Hem gol atan hem de oyun kurucu rolünü üstlenen Yiğit, oyunun kaderini belirleyen isimlerden biri oldu. Dakikalar ilerledikçe baskıyı artıran Komodor FC, Deniz Eren’in etkili asistleriyle pozisyonlar bulmaya başladı. Deniz'in akıl dolu paslarıyla Hakan, 2 kez üst üste sahneye çıkarak skoru 3-0 yaptı.
+Maçın başından itibaren etkili olan takımımız oyun başında 1-0 geri düştü, Erberk’in 12. dakikada attığı harika golle skoru 1-1'e getirdi. Takımın hücum hattında sürekli tehdit oluşturan Erberk, takımımızın en önemli oyuncularından biri olarak parladı. İlk yarının sonlarına doğru İsmail Ardanın’in etkili oyunuyla bulduğumuz ikinci gol, soyunma odasına 2-1’lık üstünlükle girmemizi sağladı.
 
-Lord Of City, oyuna yeniden tutunmaya çalışsa da savunmamız ve kalecimiz Mehmet'in kritik müdahaleleri rakibin direncini kırdı. İlk yarı sonunda İsmail Arda Yamaç’ın şık golüyle farkı iyice açarak devreye 4-1 önde girdik.
+İkinci yarıda da oyunun kontrolünü bırakmayan Komodor FC, Erberk’in bir kez daha sahneye çıkmasıyla skoru 3-1’a taşıdı. Maçın son bölümlerine doğru Caner’in attığı iki golle farkı daha da açtık ve maçı 5-1’lik skorla kazandık.
 
-İkinci yarıda Lord Of City’den beklenen ataklar gelse de takımımız sakin ve disiplinli oyunuyla maçı kontrol etmeyi başardı. Aytunç, hem attığı golle hem de yaptığı asistle farkı açan isimlerden biri oldu. Oyun disiplininden hiç kopmayan Komodor FC, Hakan’ın üçüncü golüyle skoru 6-2’ye taşıdı. Rakip takım son dakikalarda 2 gol bulsa da bu, maçın sonucunu değiştirmedi.
+Erberk ve Caner’in etkili performansları, maçın kaderini belirlerken, takımımız Disiplin Kurulu’nun haksız cezalarına futbol sahasında en güzel yanıtı verdi. Komodor FC olarak üzerimize oynanan oyunların farkındayız ve her zaman futbolumuzla cevap vermeye devam edeceğiz. Ligimizin değerli ekiplerinden KartalCity'nin oyununa saygı duyuyor ve onları bu güzel mücadele için tebrik ediyoruz kalan maçlarında başarılar diliyoruz.
 
-Son düdükle birlikte sahadan 6-4’lük net bir galibiyetle ayrılan takımımız, hem liderliğini pekiştirdi hem de taraftarlarına bir kez daha keyifli bir maç izlettirdi. Yiğit’in 1 gol ve 1 asisti, Deniz Eren’in 2 asistlik katkısı, Hakan’ın 3 gol ve 2 asistiyle müthiş performanslar sergilendi. Takımımızın bu uyumlu ve kararlı futbolu, şampiyonluğa ne kadar yakın olduğumuzu bir kez daha gösterdi.
+Bu zafer, zirvedeki yerimizi sağlamlaştırdı ve şampiyonluk yolunda kararlılığımızı bir kez daha kanıtladı.
 
-Bu zafer, Komodor FC’nin sahadaki üstünlüğünü bir kez daha kanıtladı ve moral motivasyonumuzu zirveye taşıdı. Şampiyonluk yolunda hız kesmeden ilerlemeye devam ediyoruz!
+
+
+
+
+
+
     `,
   },
   {
     id: 2,
-    title: "Hakan Yıldırım'dan şov!",
-    description: "Hakan Yıldırım, Yükselen Performansıyla Göz Dolduruyor!",
+    title: "Komodor FC'nin İsviçre Çakısı: Erberk Coşkun Yine Fark Yarattı",
+    description: "Forvet pozisyonunda oynayan Erberk göz kamaştırdı.",
     image: hako,
     fullText: `
-     Komodor FC'nin yetenekli ortasahası Hakan Yıldırım, son haftalardaki müthiş performansıyla taraftarların ve futbol otoritelerinin dikkatini çekiyor. Üst üste sergilediği etkileyici futbol ve attığı gollerle takımını sırtlayan Hakan, adeta formunun zirvesine ulaştı.
+    Komodor FC’nin çok yönlü oyuncusu Erberk Coşkun, bu hafta ligin en güçlü ekiplerinden birine karşı sergilediği müthiş performansla adeta parladı. Cezalı oyuncularımızın yokluğunda forvet mevkisinde oynayan Erberk, 2 gol ve 1 asistle maçın yıldızı oldu. Sahadaki her pozisyonda kendine yer bulabilen ve takımına büyük katkı sağlayan Erberk’e artık taraftarlar “İsviçre Çakısı” diyor. Nitekim, onu takımın her alanında kullanabiliyoruz!
 
-Son 3 maçta 7 gol ve 4 asistlik inanılmaz bir istatistiğe imza atan Hakan, hücum hattında sergilediği oyunla fark yaratmaya devam ediyor. Hem gol yollarındaki bitiriciliği hem de arkadaşlarına yaptığı asistlerle takımına büyük katkı sağlayan yıldız oyuncu, Komodor FC'nin liderlik mücadelesinde kilit rol oynuyor.
+Forvet pozisyonunda oynamasına rağmen hücumdaki dinamizmi ve oyuna katkısıyla sanki yıllardır bu mevkide oynuyormuş gibi bir performans sergileyen Erberk, takımımızı sırtlamaya devam ediyor. Hem attığı gollerle hem de yaptığı asistle sahadaki çok yönlülüğünü bir kez daha gösterdi. Kritik anlarda sorumluluk alarak rakip savunmayı zor duruma sokan yıldız oyuncu, sahadaki liderliğiyle de göz doldurdu.
 
-Hakan'ın bu yükselen performansı, takımın genel başarısına da büyük katkıda bulundu. Hücum hattındaki etkinliğiyle rakip savunmaları zor durumda bırakan Hakan, sahadaki liderliğiyle de takım arkadaşlarını motive ediyor. Özellikle son haftalarda maçın kaderini değiştiren kritik anlarda sahneye çıkması, onu takımın en önemli oyuncularından biri haline getirdi.
+Bu hafta oynadığımız zorlu maçta rakip savunmayı defalarca zorlayan ve bitiriciliğiyle fark yaratan Erberk, özellikle ikinci golünde yaptığı muhteşem vuruşla taraftarları coşturdu. Takım arkadaşlarına da asist yaparak, skora hem bireysel hem de kolektif katkı sağladı.
 
-Komodor FC'nin zirve yolculuğunda Hakan Yıldırım'ın bu performansını devam ettirmesi, hem takımın hem de taraftarların en büyük beklentisi. Sahadaki hırsı, mücadeleci yapısı ve skora katkısıyla Hakan, şimdiden sezonun en çok konuşulan oyuncuları arasında yerini aldı.
+Erberk Coşkun’un çok yönlü oyunu, Komodor FC’nin bu sezonki başarı hikayesinde büyük bir rol oynuyor. Cezalı oyuncularımızın eksikliğini hissettirmeden her mevkide en iyi performansı göstermesi, takımımızın gücünü ve derinliğini ortaya koyuyor. İsviçre çakısı lakabını sonuna kadar hak eden Erberk, sahadaki enerjisi ve etkili oyunuyla takımın vazgeçilmezlerinden biri haline geldi.
 
-Hakan Yıldırım’ın bu müthiş form grafiğiyle takımımıza daha nice zaferler kazandıracağından eminiz!
+Komodor FC olarak, Erberk Coşkun’un bu formunu sürdürerek takımımıza daha nice galibiyetler kazandıracağından hiç şüphemiz yok!
     `,
   },
   {
     id: 3,
-    title: "Caner ÇAĞLAYAN Komodor FC'de..",
-    description: "Caner Çağlayan Komodor FC'ye Geri Döndü!",
+    title: "Disiplin Kurulunun kararlarına istinaden..",
+    description: "Sözün bittiği yerdeyiz..",
     image: caner410,
     fullText: `
-    Geçtiğimiz sezon takımımızda kiralık olarak oynayan ve ardından eski kulübü Dörtyüzon'a geri dönen tecrübeli oyuncumuz Caner Çağlayan, yeniden Komodor FC'ye katıldı. Dörtyüzon'un lige katılmayacağını açıklaması üzerine, Caner eski yuvasına dönme kararı aldı.
+     Beykoz maçında yaşanan olaylar sonucunda futbolcularımıza ve kulübümüze verilen cezaların hakkaniyetten uzak ve Komodor FC’yi mağdur eden bir nitelikte olduğunu düşünüyoruz. 
 
-Caner, önceki dönemlerde takımımıza kattığı deneyim ve etkili performansıyla büyük katkı sağlamıştı. Sahadaki liderliği ve oyun zekâsı, hem takım arkadaşları hem de taraftarlar tarafından büyük takdir topladı. Taraftarlarımız, Caner'in Komodor FC forması altında sahadaki yeteneklerini yeniden izleme fırsatı bulacak.
+Verilen cezalar, olayın gerçek yüzünü yansıtmamakta ve yalnızca Komodor FC oyuncularını hedef almaktadır. Rakip takımın yalnızca 1 oyuncusuna ceza verilmesi, oysa bizim takımımızdan 6 futbolcunun ağır şekilde cezalandırılması, alınan kararların haksız ve orantısız olduğunu göstermektedir. Takımımızın disiplinli bir şekilde hareket ettiği ve sadece olayları yatıştırmak amacıyla müdahale ettiği apaçık ortadadır.
 
-Takımımıza tekrar katılacak olan Caner'e, bu yeni dönemde de başarılar diliyoruz. Komodor FC ailesi olarak, Caner’in sahada bize kattığı değeri yeniden görmekten mutluluk duyacağız.
+Komodor FC olarak, bu cezaların sadece takımımızı cezalandırmak için verilmiş olduğu düşüncesindeyiz. Eğer bu olaylar sırasında kavgaya katılma niyetimiz olsaydı, çok daha büyük olaylar çıkabileceği aşikardır. Ancak bizler, olayları yatıştırmak için elimizden geleni yaparken bu kadar ağır cezalarla karşılaşmak, hem takımımıza hem de oyuncularımıza haksızlık oluşturmaktadır.
+
+Bizden 6 kişi, rakip takımdan ise sadece 1 kişi kırmızı kart görmüştür. Komodor FC kendi arasında mı kavga etti ki bu kadar ceza aldı? Disiplin Kurulunun ve BAZI ANADOLU LİGİ takımlarının hesaba katmadığı bir gerçek vardır. Biz Komodor FC olarak sahaya çıktığımız her maçın favorisi biz olduğumuzu bilmenizi isteriz. Alınan kararlara rağmen sadece futbolumuza odaklanacağımızın bilinmesini isteriz.
+Saygılarımızla.
     `,
   },
 ];
@@ -237,7 +245,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              29 Eylül - 19:00
+              13 Ekim - 19:00
             </Typography>
             <Typography
               variant="body2"
@@ -254,8 +262,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor 6-4 Lord Of City
-              <img src={lordofcity} alt="" width={45} />
+              Komodor 5-1 KartalCity
+              <img src={kartalcity} alt="" width={45} />
             </Typography>
             <Typography
               variant="caption"
@@ -282,7 +290,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              4 Ekim - 21:00
+              20 Ekim - 21:00
             </Typography>
             <Typography
               variant="body2"
@@ -299,8 +307,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Beykoz 1908
-              <img src={beykoz} alt="" width={40} />
+              Komodor vs Modern Football
+              <img src={modernfootball} alt="" width={40} />
             </Typography>
             <Typography
               variant="caption"
@@ -325,7 +333,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              10 Ekim - 21:00
+              26 Ekim - 21:00
             </Typography>
             <Typography
               variant="body2"
@@ -342,8 +350,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Kartalcity
-              <img src={kartalcity} alt="" width={50} />
+              Komodor vs Sut At Jazz
+              <img src={sutatjazz} alt="" width={50} />
             </Typography>
             <Typography
               variant="caption"

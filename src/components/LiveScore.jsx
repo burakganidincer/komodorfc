@@ -24,14 +24,11 @@ const LiveScore = () => {
           letterSpacing: ".1rem",
         }}
       >
-        HABERLER : Caner ÇAĞLAYAN Komodor FC'de, Tecrübeli oyuncunun transferi
-        için Dörtyüzon Kulübü ile tekrar görüşmelere başlandı. &nbsp; | MS:
-        Komodor FC 6 - 4 Lord Of City&nbsp; | &nbsp; Geçtiğimiz sezonun gol
-        kralı olan oyuncumuz Ali Mert DOĞAN'ın ayağından geçirdiği ameliyat
-        başarıyla sonuçlandı. Tecrübeli golcü 1 ay sahalardan uzak
-        kalacak.&nbsp; | &nbsp;Samet Aktan antrenmanda sakatlandı. Başarılı
-        solbek oyuncumuzun köprücük kemiğinde kırık tespit edildi.&nbsp; |
-        &nbsp;
+        HABERLER : Kulübümüze oynanan oyunların farkındayız. Doğru zaman
+        geldiğinde gereken tüm açıklamaları yapacağız &nbsp; | MS: Komodor FC 5
+        - 1 Kartal City&nbsp; | &nbsp; Disiplin Kurulundan takımıza ceza
+        yağmuru! 6 Futbolcumuz cezalı..&nbsp; | &nbsp;Samet Aktan düz koşulara
+        başladı..&nbsp; | &nbsp;
       </Typography>
     </Box>
   );
