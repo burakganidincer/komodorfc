@@ -49,7 +49,7 @@ const Gallery = () => {
           textAlign: "center",
         }}
       >
-        FC Nice Karşılaşmasından Görüntüler
+        Son Karşılaşmamızdan Görüntüler
       </Typography>
       <Grid container spacing={2}>
         {images.map((image, index) => (
