@@ -24,11 +24,12 @@ const LiveScore = () => {
           letterSpacing: ".1rem",
         }}
       >
-        HABERLER : Kulübümüze oynanan oyunların farkındayız. Doğru zaman
-        geldiğinde gereken tüm açıklamaları yapacağız &nbsp; | MS: Komodor FC 5
-        - 1 Kartal City&nbsp; | &nbsp; Disiplin Kurulundan takımıza ceza
-        yağmuru! 6 Futbolcumuz cezalı..&nbsp; | &nbsp;Samet Aktan düz koşulara
-        başladı..&nbsp; | &nbsp;
+        HABERLER : Takımımız Red Lightning'i mağlup etti ve ligin bitmesine 2
+        hafta kala liderliği garantiledi. &nbsp; | MS: Komodor FC 5 - 4 Red
+        Lightning&nbsp; | &nbsp; Takımımız son haftalarda yükselen grafiğiyle
+        dikkatleri üzerine çekiyor. &nbsp; | &nbsp;Genç kaleci Muaz Babur
+        Komodor FC'de..&nbsp; | &nbsp; Takımımız Play-Off'lara yarı finalden
+        dahil olacak.
       </Typography>
     </Box>
   );

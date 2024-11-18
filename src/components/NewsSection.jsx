@@ -13,75 +13,61 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
+import haber2 from "../images/haftaninmaci/haftaninmaci1.jpeg";
 import haber1 from "../images/haftaninmaci/haber1.jpeg";
+import muaz from "../images/haftaninmaci/haftaninmaci11.jpeg";
 import minifutbol from "../images/minifutbol.jpg";
-import caner410 from "../images/canerdortyuzon.png";
+
 import isobaba from "../images/isobaba1.png";
 import alimertdogan from "../images/alimertdogan.png";
 import modernfootball from "../images/takimlar/modernfootball.png";
-import kartalcity from "../images/takimlar/kartalcity.png";
+import prodevils from "../images/takimlar/prodevils.png";
+import karabela from "../images/takimlar/karabela.png";
 import sutatjazz from "../images/takimlar/sutatjazz.png";
-
-import hako from "../images/haftaninmaci/haftaninmaci1.jpeg";
+import red from "../images/takimlar/redlightning.png";
 
 // Slider Haberler
 export const sliderNews = [
   {
     id: 1,
-    title: "MS: Komodor FC 5 - 1 KartalCity",
-    description: "Şanlı Komodor Oyuncularımızı Tek Tek Tebrik Ediyoruz.",
+    title: "Sezonu Lider Tamamlıyoruz",
+    description: "Takımımız Play-off'larda yarı finalden dahil olacak.",
     image: haber1,
     fullText: `
-     Geçtiğimiz hafta Beykoz maçının ardından Disiplin Kurulu’nun 6 oyuncumuza verdiği ağır cezalara rağmen, Komodor FC sahada gücünü ve kararlılığını bir kez daha gösterdi. Takımımız, KartalCity gibi ligin önemli ekiplerinden birine karşı oynadığı maçta 5-1’lik net bir galibiyet elde etti. Bu zafer, zirveye olan yürüyüşümüzde ne kadar kararlı olduğumuzu gösterirken, futbolcularımızın da morallerini yüksek tutmayı başardık.
-
-Maçın başından itibaren etkili olan takımımız oyun başında 1-0 geri düştü, Erberk’in 12. dakikada attığı harika golle skoru 1-1'e getirdi. Takımın hücum hattında sürekli tehdit oluşturan Erberk, takımımızın en önemli oyuncularından biri olarak parladı. İlk yarının sonlarına doğru İsmail Ardanın’in etkili oyunuyla bulduğumuz ikinci gol, soyunma odasına 2-1’lık üstünlükle girmemizi sağladı.
-
-İkinci yarıda da oyunun kontrolünü bırakmayan Komodor FC, Erberk’in bir kez daha sahneye çıkmasıyla skoru 3-1’a taşıdı. Maçın son bölümlerine doğru Caner’in attığı iki golle farkı daha da açtık ve maçı 5-1’lik skorla kazandık.
-
-Erberk ve Caner’in etkili performansları, maçın kaderini belirlerken, takımımız Disiplin Kurulu’nun haksız cezalarına futbol sahasında en güzel yanıtı verdi. Komodor FC olarak üzerimize oynanan oyunların farkındayız ve her zaman futbolumuzla cevap vermeye devam edeceğiz. Ligimizin değerli ekiplerinden KartalCity'nin oyununa saygı duyuyor ve onları bu güzel mücadele için tebrik ediyoruz kalan maçlarında başarılar diliyoruz.
-
-Bu zafer, zirvedeki yerimizi sağlamlaştırdı ve şampiyonluk yolunda kararlılığımızı bir kez daha kanıtladı.
-
-
-
-
-
-
-
-    `,
+         Komodor FC olarak Play-off'lara çok iyi hazırlanıyoruz. Şampiyon bir takımın nasıl hazırlanması gerekiyorsa öyle çalışıyor, motivasyonumuzu en üst seviyede tutuyoruz. Geçtiğimiz günlerde Türkiye Şampiyonası'ndan döndük ve orada yaşadığımız tecrübeler bize büyük bir moral kaynağı oldu.
+  
+  Bu motivasyonla, sezonu şampiyon olarak tamamlamak için gereken tüm hazırlıkları yapıyoruz. Tekrardan zirvede yer almak ve şampiyonluk kupasını kaldırmak için kararlıyız. Komodor FC ailesi olarak hedefimize adım adım ilerliyoruz!
+      `,
   },
   {
     id: 2,
-    title: "Komodor FC'nin İsviçre Çakısı: Erberk Coşkun Yine Fark Yarattı",
-    description: "Forvet pozisyonunda oynayan Erberk göz kamaştırdı.",
-    image: hako,
+    title: "MS: Komodor FC 5 - 4 Red Lightning",
+    description: "Şanlı Komodor Oyuncularımızı Tek Tek Tebrik Ediyoruz.",
+    image: haber2,
     fullText: `
-    Komodor FC’nin çok yönlü oyuncusu Erberk Coşkun, bu hafta ligin en güçlü ekiplerinden birine karşı sergilediği müthiş performansla adeta parladı. Cezalı oyuncularımızın yokluğunda forvet mevkisinde oynayan Erberk, 2 gol ve 1 asistle maçın yıldızı oldu. Sahadaki her pozisyonda kendine yer bulabilen ve takımına büyük katkı sağlayan Erberk’e artık taraftarlar “İsviçre Çakısı” diyor. Nitekim, onu takımın her alanında kullanabiliyoruz!
-
-Forvet pozisyonunda oynamasına rağmen hücumdaki dinamizmi ve oyuna katkısıyla sanki yıllardır bu mevkide oynuyormuş gibi bir performans sergileyen Erberk, takımımızı sırtlamaya devam ediyor. Hem attığı gollerle hem de yaptığı asistle sahadaki çok yönlülüğünü bir kez daha gösterdi. Kritik anlarda sorumluluk alarak rakip savunmayı zor duruma sokan yıldız oyuncu, sahadaki liderliğiyle de göz doldurdu.
-
-Bu hafta oynadığımız zorlu maçta rakip savunmayı defalarca zorlayan ve bitiriciliğiyle fark yaratan Erberk, özellikle ikinci golünde yaptığı muhteşem vuruşla taraftarları coşturdu. Takım arkadaşlarına da asist yaparak, skora hem bireysel hem de kolektif katkı sağladı.
-
-Erberk Coşkun’un çok yönlü oyunu, Komodor FC’nin bu sezonki başarı hikayesinde büyük bir rol oynuyor. Cezalı oyuncularımızın eksikliğini hissettirmeden her mevkide en iyi performansı göstermesi, takımımızın gücünü ve derinliğini ortaya koyuyor. İsviçre çakısı lakabını sonuna kadar hak eden Erberk, sahadaki enerjisi ve etkili oyunuyla takımın vazgeçilmezlerinden biri haline geldi.
-
-Komodor FC olarak, Erberk Coşkun’un bu formunu sürdürerek takımımıza daha nice galibiyetler kazandıracağından hiç şüphemiz yok!
+       Bu hafta oynanan heyecan dolu mücadelede Komodor FC, Red Lightning ile karşı karşıya geldi ve sahadan 5-4’lük galibiyetle ayrıldı. Takımımız, sahadaki üstün performansıyla gücünü bir kez daha kanıtladı ve sezonu lider tamamlayarak playofflara direk yarı finalden katılma hakkı kazandı.
+  
+  Maçın ilk yarısında etkili bir oyun sergileyen takımımız, 10. dakikada Hakan’ın penaltıdan attığı golle öne geçti. Ancak kısa süre sonra şanssız bir gol yedik ve skor 1-1’e geldi. Bu golün ardından takımımız yeniden baskı kurdu ve Gani'nin harika asistiyle Hakan, etkileyici bir vuruşla takımımızı tekrar öne geçirdi. Ardından, yine Gani'nin asistiyle Hakan, hat-trick yaparak farkı 3-1’e çıkardı. İlk yarının sonlarına doğru Erberk’in güzel pasında İsmail şık bir gol kaydetti ve soyunma odasına 4-1 önde girdik.
+  
+  İkinci yarıya da hızlı başlayan takımımız, Gani'nin bir diğer asistiyle Edip Ahmet sahneye çıktı ve skor 5-1’e geldi. Ancak maçın ilerleyen dakikalarında Red Lightning üç gol bularak farkı bire indirdi. Buna rağmen takımımız, oyun disiplininden taviz vermeden sahadan galip ayrılmayı başardı.
+  
+  Bu galibiyetle, sezonu lider tamamlayan Komodor FC, ne kadar güçlü bir takım olduğunu bir kez daha göstermiş oldu. Playofflara lider olarak giren takımımız, direk yarı finalden katılarak şampiyonluk için büyük bir avantaj elde etti.
+  
+  Şampiyonluk yolunda emin adımlarla ilerleyen takımımıza başarılar diliyoruz. Bu sene de hedefimiz zirve ve inanıyoruz ki bu hedefe ulaşacağız!
     `,
   },
   {
     id: 3,
-    title: "Disiplin Kurulunun kararlarına istinaden..",
-    description: "Sözün bittiği yerdeyiz..",
-    image: caner410,
+    title: "Komodor'un Yeni Panteri..",
+    description: "Muaz Babur Komodor FC'de",
+    image: muaz,
     fullText: `
-     Beykoz maçında yaşanan olaylar sonucunda futbolcularımıza ve kulübümüze verilen cezaların hakkaniyetten uzak ve Komodor FC’yi mağdur eden bir nitelikte olduğunu düşünüyoruz. 
-
-Verilen cezalar, olayın gerçek yüzünü yansıtmamakta ve yalnızca Komodor FC oyuncularını hedef almaktadır. Rakip takımın yalnızca 1 oyuncusuna ceza verilmesi, oysa bizim takımımızdan 6 futbolcunun ağır şekilde cezalandırılması, alınan kararların haksız ve orantısız olduğunu göstermektedir. Takımımızın disiplinli bir şekilde hareket ettiği ve sadece olayları yatıştırmak amacıyla müdahale ettiği apaçık ortadadır.
-
-Komodor FC olarak, bu cezaların sadece takımımızı cezalandırmak için verilmiş olduğu düşüncesindeyiz. Eğer bu olaylar sırasında kavgaya katılma niyetimiz olsaydı, çok daha büyük olaylar çıkabileceği aşikardır. Ancak bizler, olayları yatıştırmak için elimizden geleni yaparken bu kadar ağır cezalarla karşılaşmak, hem takımımıza hem de oyuncularımıza haksızlık oluşturmaktadır.
-
-Bizden 6 kişi, rakip takımdan ise sadece 1 kişi kırmızı kart görmüştür. Komodor FC kendi arasında mı kavga etti ki bu kadar ceza aldı? Disiplin Kurulunun ve BAZI ANADOLU LİGİ takımlarının hesaba katmadığı bir gerçek vardır. Biz Komodor FC olarak sahaya çıktığımız her maçın favorisi biz olduğumuzu bilmenizi isteriz. Alınan kararlara rağmen sadece futbolumuza odaklanacağımızın bilinmesini isteriz.
-Saygılarımızla.
-    `,
+         Komodor FC ailesi olarak, genç kalecimiz Muaz Babur’u aramıza katmaktan büyük mutluluk duyuyoruz. Takımımızın yeni panteri, bu hafta ilk maçına çıkarak yeteneklerini sergileme fırsatı buldu. 
+  
+  Maç boyunca yaptığı başarılı kurtarışlarla dikkat çeken Muaz, gelecekte takımımızın kalede güven veren ismi olacağını şimdiden kanıtladı. Performansıyla yalnızca takım arkadaşlarına değil, taraftarlarımıza da büyük bir ümit verdi. Muaz, hedeflerini yüksek tutuyor ve takımımızla birlikte şampiyonluk yolunda büyük katkılar sunmayı hedefliyor.
+  
+  Komodor FC olarak, Muaz Babur’a aramıza hoş geldin diyor, birlikte nice başarılara imza atacağımıza inanıyoruz!
+      `,
   },
 ];
 
@@ -89,17 +75,19 @@ Saygılarımızla.
 export const cardNews = [
   {
     id: 4,
-    title: "Takımımız Türkiye Şampiyonasında!",
+    title: "Hedef Türkiye Şampiyonası!",
     description:
-      "Komodor FC 1-3 Kasım tarihleri arasında Antalya'da sahne alacak.",
+      "Komodor FC Nisan ayında düzenlenecek Türkiye şampiyonasına katılmak istiyor",
     image: minifutbol,
     fullText: `
-    Komodor FC, uzun süredir hedeflediği Türkiye Şampiyonası'nda mücadele etmeye hazırlanıyor. 1-3 Kasım tarihleri arasında Antalya'da düzenlenecek olan turnuvada, takımımız ülkenin dört bir yanından gelen güçlü rakiplerle karşılaşacak. Turnuvaya katılacak olan Komodor FC'nin oyuncuları, haftalardır yoğun bir antrenman programı uygulayarak turnuva hazırlıklarını tamamladı. Başarılı bir sezon geçiren ve performansıyla göz dolduran takımımız, bu turnuvada da şampiyonluk hedefliyor.
-
-      Teknik direktörümüzün açıklamasına göre, takım hem fiziksel hem de mental olarak zorlu mücadelelere hazır durumda. "Antalya'da sahada elimizden gelenin en iyisini yapacağız. Taraftarlarımızın desteğiyle Türkiye'nin en iyi takımları arasında yerimizi alacağımıza inanıyoruz." dedi.
-
-      Rakiplerimiz arasında ülkenin köklü ve güçlü takımları bulunuyor olsa da, Komodor FC bu turnuvada da adından söz ettirmeye kararlı. Türkiye Şampiyonası'nda takımımızı desteklemek isteyen tüm taraftarlarımızı, Antalya'daki müsabakalara bekliyoruz. Turnuvanın ilk maçı 1 Kasım'da oynanacak. Şampiyonluğa uzanan bu yolda, tüm takımımıza başarılar diliyoruz!
-    `,
+      Komodor FC, büyük bir heyecanla Nisan ayında İzmir'de düzenlenecek olan Türkiye Şampiyonası'nda sahne almak için hazırlanıyor. Sezon boyunca gösterdiği üstün performansla dikkat çeken takımımız, bu önemli turnuvada şampiyonluk hedefliyor. İzmir'deki turnuva, Türkiye'nin dört bir yanından gelen en iyi takımları bir araya getirirken, Komodor FC de bu zorlu mücadelede yer almak için tüm hazırlıklarını tamamladı.
+  
+        Teknik ekibimiz ve futbolcularımız, haftalardır yoğun bir antrenman programı ile fiziksel ve mental olarak bu büyük organizasyona hazırlanıyor. Teknik direktörümüz, "Türkiye Şampiyonası, takımımız için önemli bir hedef. İzmir'de sahaya çıktığımızda takımımızın gerçek gücünü herkese göstereceğiz. Şampiyonluk yolunda kararlıyız ve taraftarlarımızın desteğiyle bunu başaracağımıza inanıyoruz." şeklinde açıklamalarda bulundu.
+  
+        Rakiplerimizin arasında ülkenin en köklü ve güçlü ekipleri bulunsa da, Komodor FC olarak sahada elimizden gelenin en iyisini yapacağımızdan kimsenin şüphesi olmasın. İzmir’de düzenlenecek bu prestijli turnuvada sahne almak, bizim için hem gurur hem de büyük bir fırsat olacak. Taraftarlarımızı, bu heyecanlı mücadelelerde yanımızda görmek istiyoruz. Turnuvanın ilk maçı Nisan ayında oynanacak ve Komodor FC, şampiyonluk hedefine doğru emin adımlarla ilerlemeye kararlı.
+  
+        Tüm takımımıza başarılar diliyor, Anadolu Ligi finallerinde herkesi yanımızda görmek istiyoruz. Komodor FC, bir kez daha futboluyla adından söz ettirmeye hazır!
+      `,
   },
   {
     id: 5,
@@ -245,7 +233,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              13 Ekim - 19:00
+              17 Kasım - 20:00
             </Typography>
             <Typography
               variant="body2"
@@ -262,8 +250,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor 5-1 KartalCity
-              <img src={kartalcity} alt="" width={45} />
+              Komodor 5-4 Red Lightning
+              <img src={red} alt="" width={45} />
             </Typography>
             <Typography
               variant="caption"
@@ -290,7 +278,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              20 Ekim - 21:00
+              24 Kasım - 18:00
             </Typography>
             <Typography
               variant="body2"
@@ -307,8 +295,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Modern Football
-              <img src={modernfootball} alt="" width={40} />
+              Komodor vs Pro Devils
+              <img src={prodevils} alt="" width={40} />
             </Typography>
             <Typography
               variant="caption"
@@ -333,7 +321,7 @@ const NewsSection = () => {
               fontWeight="bold"
               sx={{ textAlign: "center" }}
             >
-              26 Ekim - 21:00
+              1 Aralık - 19:00
             </Typography>
             <Typography
               variant="body2"
@@ -350,8 +338,8 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Sut At Jazz
-              <img src={sutatjazz} alt="" width={50} />
+              Komodor vs Karabela
+              <img src={karabela} alt="" width={50} />
             </Typography>
             <Typography
               variant="caption"

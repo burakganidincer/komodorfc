@@ -118,14 +118,14 @@ const Hikayemiz = () => {
                     sx={{ fontWeight: "medium", mb: 1 }}
                   >
                     <AnimatedNumber
-                      value={190}
+                      value={197}
                       startValue={0}
                       duration={3000}
                     />{" "}
                     Maç Oynandı
                   </Typography>
                   <Typography variant="body2" sx={{ color: "#666" }}>
-                    Takımımız bu süreçte 187 resmi maçta yer aldı. Bu maçlarda
+                    Takımımız bu süreçte 197 resmi maçta yer aldı. Bu maçlarda
                     kendine yakışır şekilde mücadele sergiledi.
                   </Typography>
                 </Grid>
@@ -154,14 +154,14 @@ const Hikayemiz = () => {
                     sx={{ fontWeight: "medium", mb: 1 }}
                   >
                     <AnimatedNumber
-                      value={483}
+                      value={501}
                       startValue={0}
                       duration={3000}
                     />{" "}
                     Gol atıldı
                   </Typography>
                   <Typography variant="body2" sx={{ color: "#666" }}>
-                    Takımımız bu maçlarda toplamda 469 kez fileleri
+                    Takımımız bu maçlarda toplamda 501 kez fileleri
                     havalandırdı.
                   </Typography>
                 </Grid>
