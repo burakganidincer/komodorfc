@@ -24,12 +24,11 @@ const LiveScore = () => {
           letterSpacing: ".1rem",
         }}
       >
-        HABERLER : Takımımız Red Lightning'i mağlup etti ve ligin bitmesine 2
-        hafta kala liderliği garantiledi. &nbsp; | MS: Komodor FC 5 - 4 Red
-        Lightning&nbsp; | &nbsp; Takımımız son haftalarda yükselen grafiğiyle
-        dikkatleri üzerine çekiyor. &nbsp; | &nbsp;Genç kaleci Muaz Babur
-        Komodor FC'de..&nbsp; | &nbsp; Takımımız Play-Off'lara yarı finalden
-        dahil olacak.
+        HABERLER : Takımımız Yarı-Final maçı için hazırlıklarına devam ediyor.
+        &nbsp; | MS: Komodor FC 4 - 4 Karabela FC&nbsp; | &nbsp; Takımımız son
+        haftalarda yükselen grafiğiyle dikkatleri üzerine çekiyor. &nbsp; |
+        &nbsp;Genç kaleci Muaz Babur Komodor FC'de..&nbsp; | &nbsp; Takımımız
+        Play-Off'lara yarı finalden dahil olacak.
       </Typography>
     </Box>
   );

@@ -41,19 +41,17 @@ export const sliderNews = [
   },
   {
     id: 2,
-    title: "MS: Komodor FC 5 - 4 Red Lightning",
-    description: "Şanlı Komodor Oyuncularımızı Tek Tek Tebrik Ediyoruz.",
+    title: "MS: Komodor FC 4 - 4 Karabela FC",
+    description: "Yarı-final'de rakibimizi bekliyoruz",
     image: haber2,
     fullText: `
-       Bu hafta oynanan heyecan dolu mücadelede Komodor FC, Red Lightning ile karşı karşıya geldi ve sahadan 5-4’lük galibiyetle ayrıldı. Takımımız, sahadaki üstün performansıyla gücünü bir kez daha kanıtladı ve sezonu lider tamamlayarak playofflara direk yarı finalden katılma hakkı kazandı.
-  
-  Maçın ilk yarısında etkili bir oyun sergileyen takımımız, 10. dakikada Hakan’ın penaltıdan attığı golle öne geçti. Ancak kısa süre sonra şanssız bir gol yedik ve skor 1-1’e geldi. Bu golün ardından takımımız yeniden baskı kurdu ve Gani'nin harika asistiyle Hakan, etkileyici bir vuruşla takımımızı tekrar öne geçirdi. Ardından, yine Gani'nin asistiyle Hakan, hat-trick yaparak farkı 3-1’e çıkardı. İlk yarının sonlarına doğru Erberk’in güzel pasında İsmail şık bir gol kaydetti ve soyunma odasına 4-1 önde girdik.
-  
-  İkinci yarıya da hızlı başlayan takımımız, Gani'nin bir diğer asistiyle Edip Ahmet sahneye çıktı ve skor 5-1’e geldi. Ancak maçın ilerleyen dakikalarında Red Lightning üç gol bularak farkı bire indirdi. Buna rağmen takımımız, oyun disiplininden taviz vermeden sahadan galip ayrılmayı başardı.
-  
-  Bu galibiyetle, sezonu lider tamamlayan Komodor FC, ne kadar güçlü bir takım olduğunu bir kez daha göstermiş oldu. Playofflara lider olarak giren takımımız, direk yarı finalden katılarak şampiyonluk için büyük bir avantaj elde etti.
-  
-  Şampiyonluk yolunda emin adımlarla ilerleyen takımımıza başarılar diliyoruz. Bu sene de hedefimiz zirve ve inanıyoruz ki bu hedefe ulaşacağız!
+       Bu hafta oynanan zorlu karşılaşmada Komodor FC, Karabela ile karşı karşıya geldi ve mücadele 4-4’lük beraberlikle sonuçlandı. Takımımız, sahada sergilediği üstün oyunla bir kez daha gücünü kanıtladı ve sezonu namağlup tamamlayarak playofflara direk yarı finalden katılma hakkı kazandı.
+
+Maçın ilk dakikalarında etkili bir performans sergileyen takımımız, Gani’nin beklenmedik şutuyla 1-0 öne geçti. Ancak kısa süre sonra Karabela durumu 1-1’e getirdi. Oyunun temposunu düşürmeden baskısını sürdüren takımımız, Gani’nin uzun pasında rakip takımın kendi kalesine attığı talihsiz golle 2-1 öne geçti. Ne var ki bu golden sonra üst üste üç gol yiyerek 4-2 geriye düştük.
+
+Maçın ilerleyen dakikalarında savunmadan ileri çıkan stoperimiz Batuhan Özbay, Enes’in güzel pasını değerlendirerek farkı bire indirdi: 4-3. Son saniyelerde kazandığımız frikikte, Gani topun başına geçti ve yerden sert, akıllıca bir vuruşla skoru 4-4’e getirdi. Böylece takımımız sahadan namağlup unvanını koruyarak ayrıldı.
+
+Bu sonuçla sezonu lider tamamlayan Komodor FC, ne kadar güçlü ve kararlı bir takım olduğunu bir kez daha göstermiş oldu. Şimdi gözler yarı finaldeki rakibimizde! Takımımıza şampiyonluk yolunda başarılar diliyoruz. Hedefimiz zirve, ve bu hedefe ulaşacağımıza yürekten inanıyoruz!
     `,
   },
   {
@@ -295,7 +293,7 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Pro Devils
+              Komodor 5-5 Pro Devils
               <img src={prodevils} alt="" width={40} />
             </Typography>
             <Typography
@@ -338,7 +336,7 @@ const NewsSection = () => {
                 width={40}
                 style={{ marginRight: "5px" }}
               />
-              Komodor vs Karabela
+              Komodor 4-4 Karabela
               <img src={karabela} alt="" width={50} />
             </Typography>
             <Typography
